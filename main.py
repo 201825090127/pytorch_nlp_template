@@ -7,7 +7,7 @@ from transformers import BertForSequenceClassification
 
 import train_or_test
 from config import Config
-from models.BertTwoClassification import Model
+from models.BertClassification import Model
 from utils import SentimentDataLoader
 
 if __name__ == '__main__':

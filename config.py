@@ -22,7 +22,7 @@ class Config(object):
 
         # determine the model name and model dir
         if self.model_name is None:
-            self.model_name = 'BertTenClassification'
+            self.model_name = 'BertClassification'
         self.model_dir = os.path.join(self.output_dir, self.model_name)
         if not os.path.exists(self.model_dir):
             os.makedirs(self.model_dir)
